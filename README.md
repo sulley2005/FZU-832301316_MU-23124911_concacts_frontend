@@ -7,7 +7,9 @@
 
 # 地址簿管理系统 - 前端
 
-这是一个简单的地址簿管理系统前端页面，用于管理联系人信息。
+## 项目简介
+
+本项目为地址簿管理系统（Contacts Management System）的后端部分，采用 Flask + SQLAlchemy + SQLite 构建，实现联系人信息的增、删、改、查及版本历史追踪等核心功能
 
 ## 功能
 
@@ -25,6 +27,25 @@
 - JavaScript (ES6+)
 - Bootstrap 5
 - Fetch API
+
+## 数据库模型
+
+1. **User（用户表）**
+   - id: Integer (主键)
+   - username: String (用户名，非空)
+   - phone: String (电话，可为空)
+   - email: String (邮箱，可为空)
+   - create_time: DateTime (创建时间)
+   - update_time: DateTime (最后更新时间)
+
+2. **UserVersion（用户版本历史表）**
+   - id: Integer (主键)
+   - user_id: Integer (关联用户ID，外键)
+   - username: String (用户名)
+   - phone: String (电话)
+   - email: String (邮箱)
+   - update_time: DateTime (更新时间)
+   - operator: String (操作人标识)
 
 ## 目录结构
 
@@ -44,5 +65,6 @@
 - ........├── user-edit.js # 编辑用户页面脚本
 
 - ........└── user-versions.js # 版本历史页面脚本
+
 
 
