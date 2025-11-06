@@ -28,25 +28,6 @@
 - Bootstrap 5
 - Fetch API
 
-## 数据库模型
-
-1. **User（用户表）**
-   - id: Integer (主键)
-   - username: String (用户名，非空)
-   - phone: String (电话，可为空)
-   - email: String (邮箱，可为空)
-   - create_time: DateTime (创建时间)
-   - update_time: DateTime (最后更新时间)
-
-2. **UserVersion（用户版本历史表）**
-   - id: Integer (主键)
-   - user_id: Integer (关联用户ID，外键)
-   - username: String (用户名)
-   - phone: String (电话)
-   - email: String (邮箱)
-   - update_time: DateTime (更新时间)
-   - operator: String (操作人标识)
-
 ## 目录结构
 
 - src/
@@ -65,6 +46,7 @@
 - ........├── user-edit.js # 编辑用户页面脚本
 
 - ........└── user-versions.js # 版本历史页面脚本
+
 
 
 
