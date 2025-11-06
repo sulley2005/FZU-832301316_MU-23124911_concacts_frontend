@@ -31,22 +31,25 @@
 ## 目录结构
 
 - src/
-- ├── index.html # 创建用户页面
-- ├── user-list.html # 用户列表页面
-- ├── user-detail.html # 用户详情页面
-- ├── user-edit.html # 编辑用户页面
-- ├── user-versions.html # 版本历史页面
+- ├── index.html &emsp; &emsp;&emsp;  &emsp; # 创建用户页面
+- ├── user-list.html &emsp; &emsp; &emsp; # 用户列表页面
+- ├── user-detail.html &emsp; &emsp; # 用户详情页面
+- ├── user-edit.html &emsp; &emsp; &emsp; # 编辑用户页面
+- ├── user-versions.html &emsp; &emsp; # 版本历史页面
 - ├── css/
-- │........ └── custom.css # 自定义样式
+- │&emsp;&emsp;  └── custom.css &emsp;&emsp;  # 自定义样式
 - └── js/
-- ........├── api.js # API 请求封装
-- ........├── index.js # 创建用户页面脚本
-- ........├── user-list.js # 用户列表页面脚本
-- ........├── user-detail.js # 用户详情页面脚本
-- ........├── user-edit.js # 编辑用户页面脚本
+- &emsp; &emsp; ├── api.js &emsp; &emsp; # API 请求封装
+- &emsp; &emsp; ├── index.js &emsp; &emsp; # 创建用户页面脚本
+- &emsp; &emsp; ├── user-list.js &emsp;&emsp;  # 用户列表页面脚本
+- &emsp; &emsp; ├── user-detail.js &emsp; &emsp; # 用户详情页面脚本
+- &emsp; &emsp; ├── user-edit.js &emsp;&emsp;  # 编辑用户页面脚本
+- &emsp; &emsp; └── user-versions.js &emsp;&emsp;  # 版本历史页面脚本
 
-- ........└── user-versions.js # 版本历史页面脚本
-
+# 个人信息：
+- 福州大学学生ID: 832301316
+- 梅努斯大学学生ID: 23124911
+- 姓名：高杰铭
 
 
 
