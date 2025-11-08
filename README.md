@@ -5,6 +5,8 @@
 - cd 832301316_高杰铭_frontend
 - python -m http.server 8000 --bind 127.0.0.1 --directory src
 
+# 具体详细内容请跳转CSDN：
+- https://blog.csdn.net/2303_80925420/article/details/154578462?sharetype=blogdetail&sharerId=154578462&sharerefer=PC&sharesource=2303_80925420&spm=1011.2480.3001.8118
 # 地址簿管理系统 - 前端
 
 ## 项目简介
@@ -50,6 +52,7 @@
 - 福州大学学生ID: 832301316
 - 梅努斯大学学生ID: 23124911
 - 姓名：高杰铭
+
 
 
 
